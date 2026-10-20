@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    printf("Possible keys = 25! = 2^83.7 approximately\n");
+    printf("Effective unique keys depend on equivalent keys\n");
+    return 0;
+}

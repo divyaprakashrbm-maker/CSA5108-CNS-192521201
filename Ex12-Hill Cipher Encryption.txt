@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    char p[]="MEETMEATTHEUSUALPLACEATTENRATHERTHANEIGHTOCLOCK";
+    int i,a,b,c,d;
+    for(i=0;p[i]&&p[i+1];i+=2){
+        a=p[i]-'A'; b=p[i+1]-'A';
+        c=(9*a+4*b)%26;
+        d=(5*a+7*b)%26;
+        printf("%c%c",c+'A',d+'A');
+    }
+    return 0;
+}

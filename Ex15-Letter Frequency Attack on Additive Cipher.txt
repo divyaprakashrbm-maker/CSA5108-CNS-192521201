@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    char c[200]; int i,k;
+    scanf("%199s",c);
+    for(k=0;k<26;k++){
+        printf("\nKey %d: ",k);
+        for(i=0;c[i];i++)
+            putchar((c[i]-'A'-k+26)%26+'A');
+    }
+    return 0;
+}

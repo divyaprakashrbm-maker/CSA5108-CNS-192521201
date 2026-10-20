@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    printf("Algorithm: Triple DES\n");
+    printf("Mode: CBC\n");
+    printf("Security: AES-GCM is preferred today\n");
+    printf("Performance: AES is generally faster\n");
+    return 0;
+}

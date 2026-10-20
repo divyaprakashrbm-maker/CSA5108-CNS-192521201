@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    printf("ECB: Only corresponding plaintext block is affected\n");
+    printf("CBC: Error in C1 corrupts P1\n");
+    printf("Corresponding bit in P2 is flipped\n");
+    printf("Blocks P3 onward are unaffected\n");
+    printf("Error in P1 affects all subsequent ciphertext blocks\n");
+    return 0;
+}

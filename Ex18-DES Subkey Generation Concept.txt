@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    printf("Effective DES key: 56 bits\n");
+    printf("Left half: 28 bits\nRight half: 28 bits\n");
+    printf("Each DES subkey: 48 bits\n");
+    return 0;
+}
